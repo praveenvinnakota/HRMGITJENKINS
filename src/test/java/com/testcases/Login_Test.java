@@ -29,6 +29,7 @@ public class Login_Test extends Runnerclass{
 	public void maximizeBrowser()
 	{
 		driver.manage().window().maximize();
+		
 	}
 	
 	@When("^It maximizes enter the URL$")
